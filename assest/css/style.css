@@ -1,0 +1,73 @@
+
+                                /* all figure */
+
+.all {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+   
+                                   /* left figure */
+
+.inside{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aa,.bb, .cc{
+    height: 160px;
+    width: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    margin: 50px;
+}
+.aa{
+    align-items: center;
+}
+.bb{
+    align-items: start;
+}
+.cc{
+    align-items: end;
+}
+
+                                     /* right figure */
+.fig2 {
+display: flex;
+}
+                                                                        
+.in2{
+    height: 70px;
+    width: 70px;
+    background-color: blue;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.aa2, .bb2, .cc2{
+    height: 300px;
+    width: 120px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 50px;
+}
+.aa2{
+    align-items: center;
+}
+.bb2{
+    align-items: start;
+}
+.cc2{
+    align-items: end;
+}
+
